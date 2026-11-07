@@ -1,0 +1,26 @@
+name: Inconsistência ou problema de qualidade
+about: Registrar defeito encontrado em inspeção ou validação
+labels: ["revisao"]
+body:
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Problema e evidência
+      description: Cite arquivos, IDs e trechos afetados.
+    validations:
+      required: true
+  - type: dropdown
+    id: gravidade
+    attributes:
+      label: Gravidade estimada
+      options: ["G1 — Baixa", "G2 — Moderada", "G3 — Alta", "G4 — Crítica"]
+    validations:
+      required: true
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: Correção sugerida e critérios de verificação
+  - type: textarea
+    id: relacionados
+    attributes:
+      label: Artefatos relacionados

@@ -1,0 +1,10 @@
+# Arquivos temporários e privados
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.env
+.env.*
+!*.example
+privado/
+dados-pessoais/

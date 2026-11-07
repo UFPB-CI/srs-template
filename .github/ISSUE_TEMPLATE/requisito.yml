@@ -1,0 +1,29 @@
+name: Novo requisito ou alteração
+about: Registrar necessidade, proposta ou mudança de requisito
+labels: ["requisitos"]
+body:
+  - type: textarea
+    id: necessidade
+    attributes:
+      label: Necessidade e contexto
+      description: Quem precisa? Qual problema? Qual fonte?
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta e IDs afetados
+      placeholder: RF-XXX, UC-XXX, DEC-XXX
+    validations:
+      required: true
+  - type: textarea
+    id: aceitacao
+    attributes:
+      label: Critérios de conclusão
+      description: Como saberemos que a alteração ficou adequada?
+    validations:
+      required: true
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto e dúvidas
